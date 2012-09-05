@@ -1,3 +1,5 @@
+This is my fork of Twitter.Bootstrap that currently includes all the updates from version 2.1.1 minus a new box-shadow mixin that broke my site that used [dotless](http://www.dotlesscss.org/) to parse the raw Bootstrap .less files on the server at runtime.
+
 [Twitter Bootstrap](http://twitter.github.com/bootstrap) [![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)](http://travis-ci.org/twitter/bootstrap)
 =================
 
