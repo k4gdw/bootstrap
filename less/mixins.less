@@ -260,6 +260,12 @@
           box-shadow: @shadow1, @shadow2;
 }
 
+.box-shadow(@shadow1, @shadow2, @shadow3) {
+  -webkit-box-shadow: @shadow1, @shadow2, @shadow3;
+     -moz-box-shadow: @shadow1, @shadow2, @shadow3;
+          box-shadow: @shadow1, @shadow2, @shadow3;
+}
+
 .box-shadow(...){
   -webkit-box-shadow: @arguments;
      -moz-box-shadow: @arguments;
